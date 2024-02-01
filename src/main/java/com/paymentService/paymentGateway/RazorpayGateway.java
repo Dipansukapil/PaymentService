@@ -8,11 +8,11 @@ import com.razorpay.RazorpayClient;
 import com.razorpay.RazorpayException;
 
 @Service
-public class RayzerpayGateway implements PaymentGateway {
+public class RazorpayGateway implements PaymentGateway {
 	
 	private RazorpayClient razorpayClient;
 	
-	public RayzerpayGateway(RazorpayClient razorpayClient) {
+	public RazorpayGateway(RazorpayClient razorpayClient) {
 		this.razorpayClient = razorpayClient;
 	}
 

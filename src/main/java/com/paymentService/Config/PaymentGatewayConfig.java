@@ -9,8 +9,8 @@ import com.razorpay.RazorpayException;
 @Configuration
 public class PaymentGatewayConfig {
 	
-	private String rayzorpayId = "rzp_test_tMULNFXbYXuxVU";
-	private String rayzorpayKey = "ALtfCB9ursIVU0TWbGYq61vV";
+	private String rayzorpayId = "add_rayzorpayId";
+	private String rayzorpayKey = "add_rayzorpayKey";
 	
 	@Bean
 	public RazorpayClient createRayzorpayClient() throws RazorpayException {
